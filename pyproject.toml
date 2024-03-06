@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pcpp"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre <alexandre.tavares@aperam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
